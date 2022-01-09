@@ -3,11 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/project/css/style.css" />
 </head>
 <body>
-    <h2>Введите ваш адрес, куда доставить</h2>
-    <hr>
-    <p>Город</p>
-    <input type
+<table>
+    <tr><td><h2>Введите ваш адрес,<br> куда доставить</h2></td></tr>
+    <tr><td><hr></td></tr>
+    <tr>
+        <td>
+            <form action="/project/ready.html">
+                <p>Город</p>
+                <input type="text" placeholder="Куда везти?">
+                <p>Улица</p>
+                <input type="text" placeholder="Немного точнее">
+                <p>Дом, корпус или строение</p>
+                <input type="text" placeholder="Немного точнее">
+                <p>Пожелания и примечания, если есть</p>
+                <textarea></textarea><br>
+                <input type="submit" name="buttonsubmit" value="Продолжить">
+            </form>
+        </td>
+    </tr>
+</table>
 </body>
 </html>
