@@ -3,17 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/project/css/style.css" />
 </head>
 <body>
-
-Выберите способ доставки заказа
-
-Курьером
-Дронами
-Пневмопочтой
-Почтой России
-
-Продолжить
-
+<table>
+    <tr>
+        <td>
+            <h2>Выберите способ доставки заказа</h2></tr>
+        </td>
+    <tr>
+        <td>
+            <hr>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <form action="/project/address.html">
+                <input type="radio" name="delivery">Курьером<br>
+                <input type="radio" name="delivery">Дронами<br>
+                <input type="radio" name="delivery">Пневмопочтой<br>
+                <input type="radio" name="delivery">Почтой России<br>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td><br></td>
+    </tr>
+    <tr>
+        <td><input type="submit" name="buttonsubmit" value="Продолжить"></td>
+    </tr>
+</table>
 </body>
 </html>
